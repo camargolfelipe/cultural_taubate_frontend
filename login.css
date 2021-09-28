@@ -1,0 +1,64 @@
+@charset "UTF-8";
+html{
+  height: 100%;
+  font-family: arial, Helvetica, sans-serif;
+}
+
+form{
+  background-color: #0f1733;
+  font-size: 25px;
+  width: 400px;
+  height: 450px;
+  margin-top: 15%;
+  margin-left: 35%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 15px rgb(69, 58, 74);
+  text-align: center;
+}
+
+#cadastro{
+    background-color: #0f1733;
+    font-size: 25px;
+    width: 400px;
+    height: 500px;
+    margin-top: 15%;
+    margin-left: 35%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgb(69, 58, 74);
+    text-align: center;
+}
+
+body{  
+  background-image: linear-gradient(to bottom,#148BA6, #c4b016); 
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+  padding: 15px;
+}
+
+a{
+  color: white;
+  font-size:15px
+}
+
+
+label{
+  color: white;
+  font-family: arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+
+input{
+  background-color: #132157;
+  /*box-shadow: 5px 5px 15px #1c2b5e;*/
+  color: white;
+  width: 250px;
+}
+
+btn_entrar{
+  margin: 20px;
+}
