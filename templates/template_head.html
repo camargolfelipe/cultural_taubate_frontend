@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static', filename='reset.css') }}">
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+        {% block head %} {% endblock %}
+    </head>
+    
+    <body>
+        <header>        
+            <div class='caixa_nav'>
+                <h1>Tv Taubaté</h1>
+
+                <nav>
+
+                    <div class='top_links'>
+                        <ul>
+                            <li><a href="{{ url_for('index') }}">Home</a></li>
+                            <li><a href="{{ url_for('login') }}">Login</a></li>
+                            <li><a href="{{ url_for('eventos') }}">Eventos</a></li>
+                            <li><a href="{{ url_for('contato') }}">Contatos</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        
+        
+        {% block content %}{% endblock %}
+
+    </body>
+
+    
+</html>

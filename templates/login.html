@@ -3,7 +3,6 @@
     <head>
         <meta charset="UTF-8">
         <link rel= "stylesheet" href="{{ url_for('static', filename='login.css') }}">
-        <!-- <link rel="stylesheet" href="{{ url_for('static', filename='bootstrap.css') }}"> -->
         <script type="text/javascript" src="login.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,7 +15,7 @@
             <form action='/autenticar' method="post">
               <h1>Entrar</h1>
               <label class="label">Usuario:</label> <br>
-              <input class='input' type="text" name="username" placeholder="Insira teu email" required><br><br>
+              <input class='input' type="email" name="id" placeholder="Insira teu email" required><br><br>
 
               <label class="label">Senha:</label> <br>
               <input type="password" name="password" placeholder="Insira tua senha" required>
